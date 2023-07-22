@@ -293,6 +293,7 @@ padding: 2em;
 
 
 .container{width: 115%;}
+
 .srh-area{
     display: flex;
     padding-left: 45%;
@@ -571,7 +572,7 @@ padding: 2em;
     .countries-l{
 
         display: grid;
-        grid-template-columns: repeat(3,1fr);
+        grid-template-columns: repeat(2,1fr);
     }
 
 
@@ -579,6 +580,6 @@ padding: 2em;
     .places{
 
         display: grid;
-        grid-template-columns: repeat(3,1fr);
+        grid-template-columns: repeat(2,1fr);
     }
-}
+} 
