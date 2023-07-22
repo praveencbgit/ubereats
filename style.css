@@ -1,0 +1,555 @@
+.section1{
+    /* background-image: url("https://d3i4yxtzktqr9n.cloudfront.net/web-eats-v2/9b21aa66b4922ae2.png"); */
+  z-index: 1;
+    gap: 1em;
+padding: 2em;
+    display:flex;
+    /* position: sticky; */
+    top: 0;
+    justify-content: space-between;
+}
+
+
+body{
+
+    margin: 0;
+    padding: 0;
+}
+
+
+
+.bg_img{
+height: 30px;    width:8vw;
+}
+
+.login{
+
+display: flex;
+gap: 0.5em;
+align-items: center;
+position: relative;
+top: 0.3em;
+justify-content: center;
+    font-size: 20px;
+    font-weight: bold;
+    background-color: #fff;
+    border-radius: 30px;
+    width: 6em;
+    height: 2.8em;
+
+}
+
+
+
+.signup{
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+        font-size: 20px;
+        font-weight: bold;
+        background-color:black;
+        color: #fff;
+        border-radius: 30px;
+        width: 6em;
+        height: 2.8em;
+    }
+.section1>div{
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+    gap: 2em;
+}
+
+.btns{
+    display: flex;
+    align-items: first baseline;
+}
+
+.srh-area{
+
+    display: flex;
+    position: relative;
+    top: 25%;
+    right: 20%;
+justify-content: center;    gap: 1em;
+    padding: 2em;
+}
+
+.container{
+    background-image: url("https://d3i4yxtzktqr9n.cloudfront.net/web-eats-v2/9b21aa66b4922ae2.png");
+
+    display: flex;
+    flex-direction: column;
+    background-size: cover;
+    background-position: center;
+        height:60em;
+}
+
+
+.sec1-sub{
+
+    display: flex;
+    justify-content: space-between;
+}
+
+.food{font-size: 4vw;
+    position: relative;
+    padding-left: 1.4em;
+    top: 20%;
+font-weight: 600;}
+
+.input{width: 30%;
+    padding-left: 1.6em;
+    border-style: none;
+    display: flex;
+    text-align: center;
+height:5em;}
+
+.location{
+
+    position: absolute;
+    top: 40%;
+    left: 24%;
+}
+
+.options{width: 14em;
+    font-size: 20px;
+    font-weight: bold;
+border-style: none;}
+
+.btn{
+    background-color: black;
+    color: #fff;
+    border-radius: 10px;
+    font-weight: bold;
+    border-style: none;
+    width: 10em;
+}
+
+
+
+/* >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>section2>>>>>>>>>>>>>>> */
+
+
+
+.section2{
+
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 5em;
+    justify-content: space-around;
+}
+
+
+
+.section2>div{
+    display: flex;
+    gap: 1em;
+    flex-direction: column;
+
+}
+
+
+
+
+.sec2img{
+
+    height: 300px;
+    width: 100%;
+}
+
+.section2>div>span:nth-child(2){
+    font-weight: bold;
+
+font-size: 35px;}
+
+.section2>div>span:nth-child(3){
+color: #000000;
+    font-size: 20px;
+text-decoration: underline;
+    font-weight: bold;
+}
+
+
+/* >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>Section3>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> */
+
+
+
+.cities{
+white-space: nowrap;
+    font-size:2vw;
+    font-weight: 600;
+}
+
+.section3{display: flex;
+padding: 2em;
+margin-top: 7em;}
+
+.sec3_map{
+
+width: 110em;
+margin-top: 10%;
+margin-left: -12em;}
+
+.places{display: grid;
+
+    margin-top: 3em;
+    margin-left: -12%;
+font-size: 20px;
+    list-style: none;
+    gap: 3em;
+
+grid-template-columns: repeat(4,1fr);
+}
+
+.countries-l{
+    display: grid;
+    margin-top: 2em;
+    font-size: 20px;
+    list-style: none;
+    margin-left: 4%;
+    gap: 3em;
+    grid-template-columns: repeat(4,1fr);
+}
+.countries{
+    margin-left: 1.2em;
+    font-size: 40px;
+    margin-top: 3em;
+    font-weight: 600;
+}
+
+.section4{
+    margin-top: 3em;
+}
+
+
+.line{background-color:rgba(0, 0, 0, 0.4);
+height: 1px;
+margin-top: 2em;}
+
+
+
+.footer{display: flex;
+padding: 2em;}
+
+.left{
+
+    display: flex;
+    flex-direction: column;
+    gap: 5em;
+    flex:2;
+}
+
+.right{flex: 3;
+gap: 3em;
+display: grid;
+list-style: none;
+grid-template-columns: repeat(2,1fr);
+}
+
+.play{
+    width: 7em;
+    height: 2em;
+}
+
+li{font-size: 20px;
+    display: inline-block;
+
+}
+
+.footer-sub{display: flex;
+padding: 2em;
+}
+
+
+.left-s{
+
+    display: flex;
+    gap: 2em;
+    flex: 2;
+}
+
+.right-s{
+    display:grid;
+    grid-template-columns: repeat(4,1fr);
+    flex: 3;
+}
+
+
+.policy{
+    white-space: nowrap;
+}
+
+.sec1-sub,.btns,.btn,.section2,.sec3_map,.countries-l,.places,.right,.left,.right-s,.left-s:hover{cursor: pointer;}
+
+
+
+/* >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>Reponsivr mobile scrren>>>>>>>>>>>>>>>>>>>>>>>>>>>>> */
+
+
+
+@media(max-width:360px){
+
+
+.container{width: 115%;}
+.srh-area{
+    display: flex;
+    padding-left: 45%;
+    flex-direction: column;}
+
+    .input{
+        width: 90%;
+    }
+
+    .options{height: 3em;
+    
+    width: fit-content;}
+
+.btn{
+    height: 5em;
+    width: 90%;
+    
+}
+
+.location{display: none;}
+
+.food{
+    font-size: 40px;
+    font-weight: bold;
+    text-transform: capitalize;
+    padding-right: 0.5em;
+}
+
+.bg_img{position: absolute;
+    width: 14em;
+    height: 4em;
+    font-size: 20px;
+top: 7em;}
+
+.menu{
+    position: relative;
+    top: 1em;
+}
+
+
+.section2>div{
+
+    margin-left: 2em;
+    gap: 1em;
+    padding: 1em;
+}
+
+
+
+.sec3_map{
+    /* width: 100%;
+    margin-left: -2em; */
+
+    display: none;
+}
+.places{display:grid;
+    grid-template-columns: repeat(2,1fr);
+}
+
+.cities{
+    font-size: 4vw;
+}
+
+
+.countries-l{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+
+
+.countries{
+    font-size: 20px;
+}
+
+
+.right{display: grid;
+grid-template-columns: repeat(2,1fr);}
+
+.left{display: none;}
+
+.right-s{
+
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+}
+
+.left-s{display: none;}
+.policy{
+display: none;}
+}
+
+
+@media(max-width:480px){
+
+
+    .container{width: 115%;}
+    .srh-area{
+        display: flex;
+        padding-left: 45%;
+        flex-direction: column;}
+    
+        .input{
+            width: 90%;
+        }
+    
+        .options{height: 3em;
+        
+        width: 100%;}
+    
+    .btn{
+        height: 5em;
+        width: 90%;
+        
+    }
+    
+    .location{display: none;}
+    
+    .food{
+        font-size: 46px;
+        font-weight: bold;
+        text-transform: capitalize;
+        padding-right: 0.5em;
+    }
+    
+    .bg_img{position: absolute;
+        width: 12em;
+        height: 4em;
+        font-size: 20px;
+    top: 7em;}
+    
+    .menu{
+        position: relative;
+        top: 1em;
+    }
+
+.section2>div{margin-left: 3em;}
+
+
+.sec3_map{display:none;
+    }
+
+    .places{
+        display:grid;
+        margin-left: -1em;
+        grid-template-columns: repeat(2,1fr);
+    }
+
+    .countries-l{display: grid;
+        margin-left: 4em;
+    grid-template-columns: repeat(2,1fr);}
+    .countries{
+    display: inline-block;}
+
+
+    .right{display: grid;
+        grid-template-columns: repeat(2,1fr);}
+        
+        .left{display: none;}
+        
+        .right-s{
+        
+            display: grid;
+            grid-template-columns: repeat(1,1fr);
+        }
+        
+        .left-s{display: none;}
+        .policy{
+        display: none;}
+
+}
+
+
+@media(max-width:720px){
+body{
+
+    padding: 0;
+    margin: 0;
+}
+
+.srh-area{
+    display: flex;
+    margin-left: 18%;
+    padding-left: 3em;
+    width:fit-content;
+}
+
+.bg_img{
+    width: 100%;
+}
+
+.location{
+    position: absolute;
+    left: 9%;
+}
+.food{
+
+    font-size: 40px;
+}
+
+.sec3_map{display: none;}
+
+.right{display: grid;
+    margin-left: 6em;
+grid-template-columns: repeat(1,1fr);
+
+}
+.right-s{display: grid;
+grid-template-columns: repeat(1,1fr);
+margin-left: 4em;
+
+}
+.policy{display: none;}
+
+
+}
+
+@media(min-width:1000px) and (max-width:1400px){
+
+.srh-area{
+    width: 100%;
+    margin-left: 10%;
+    /* position: relative; */
+}
+.bg_img{width:100%}
+.location{
+
+    position: absolute;
+    left: 19%;
+}
+
+
+.sec3_map{width:100%;
+    margin-left: -2.4em;
+
+
+}
+
+
+}
+
+
+
+@media(min-width:720px) and (max-width:998px){
+
+.sec3_map{display: none;}
+
+.policy{display: none;}
+}
+
+@media(min-width:1400px) and (max-width:1800px){
+
+
+.sec3_map{
+padding: 2em;
+    width: 100%;
+    margin-left: -8%;
+}
+
+
+}
